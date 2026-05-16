@@ -9,7 +9,7 @@ DATA_DIR = BASE_DIR / "data"
 DATA_DIR.mkdir(exist_ok=True)
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-CHAT_MODEL = "gpt-4o"
+CHAT_MODEL = "gpt-5"
 EMBEDDING_MODEL = "text-embedding-3-small"
 EMBEDDING_DIM = 1536
 
